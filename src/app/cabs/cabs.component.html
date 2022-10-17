@@ -1,0 +1,32 @@
+
+
+
+<ul >
+    <ng-container *ngFor="let cabs of cabs" >
+        <section class="p-5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md">
+                        <div class="card bg-warning text-dark mb-3">
+                            <li class="cablist" >
+                    
+                                <img [src]="cabs.src" [alt]="cabs.cabname" width="100" class="rounded-circle" />
+                                <p class="title">{{ cabs.cabname }}</p>
+                                <p>Is available from {{ cabs.cabloc }} to {{ cabs.cabdes }}.</p>
+                                <p class="currency">{{ cabs.price | currency: 'INR' }} Rs.</p>
+                                <button class="btn btn-dark text-warning p-2 mx-2" routerLink="/ride">Book Now</button>
+                                
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+            
+
+    </ng-container>
+</ul>
+
+
+

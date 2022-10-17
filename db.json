@@ -1,0 +1,32 @@
+{
+  "posts": [],
+  "signupUsers": [
+    {
+      "fullname": "Dhanush",
+      "mobile": 7389470666,
+      "email": "dhanushbvs@gmail.com",
+      "password": "asdf1234",
+      "address": "Raipur",
+      "id": 1
+    },
+    {
+      "fullname": "Neehal Raj",
+      "mobile": 987667890,
+      "email": "neehal12@gmail.com",
+      "password": "neehal123",
+      "address": "Delhi India",
+      "id": 2
+    },
+    {
+      "fullname": "Harsh",
+      "mobile": 7654893023,
+      "email": "harsh123@gmail.com",
+      "password": "harsh098",
+      "address": "Raipur india",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
